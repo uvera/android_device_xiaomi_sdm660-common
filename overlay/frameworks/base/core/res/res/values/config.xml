@@ -366,4 +366,8 @@
    <!-- When true use the linux /dev/input/event subsystem to detect the switch changes
    on the headphone/microphone jack. When false use the older uevent framework -->
    <bool name="config_useDevInputEventForAudioJack">true</bool>
+
+   <!-- Flag indicating whether we should enable smart battery. -->
+   <bool name="config_smart_battery_available">true</bool>
+
 </resources>
